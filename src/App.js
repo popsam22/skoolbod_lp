@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavBar from './components/NavBar/NavBar';
+import Header from './components/Header/Header';
+import SocialProof from './components/SocialProof/SocialProof';
+import About from './components/About/About'
+import Accordion from './components/Accordion/Accordion';
+import CTA from './components/CTA/CTA';
+import Footer from './components/Footer/Footer';
 
-function App() {
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <NavBar />
+        <Header />
+        <SocialProof />
+        <About /> 
+        <Accordion />
+        <CTA/>
+        <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
