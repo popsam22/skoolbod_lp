@@ -12,7 +12,7 @@ const SocialProof = () => {
   return (
     <div className="app__socialproof">
       <div className="app__socialproof-h1">
-        <h1>Trusted by more than 5,000 students nationwide.</h1>
+        <h1>Trusted by more than 5,000 students nationwide</h1>
       </div>
       <div className="app__socialproof-logos">
         <div>
