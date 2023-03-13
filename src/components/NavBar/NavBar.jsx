@@ -27,12 +27,12 @@ const NavBar = () => {
       </button>
 
       <div className="app__navbar-smallscreen">
-        <RiMenu3Line className="app__navbar-smallscreen-menu" color="black" size={27} onClick={() => { setToggleSmallScreen(true)}}/>
+        <RiMenu3Line className="app__navbar-smallscreen-menu" color="black" size={27} onClick={() => { setToggleSmallScreen(true) }} />
 
 
         {toggleSmallScreen && (
           <div className="app__navbar-smallscreen-overlay">
-            <RiCloseLine className="overlay-close" color="black" size={35} onClick={() => {setToggleSmallScreen(false)}}/>
+            <RiCloseLine className="overlay-close" color="black" size={35} onClick={() => { setToggleSmallScreen(false) }} />
             <ul className="app__navbar-smallscreen-links">
               <li>
                 <a href="#home">Home</a>

@@ -11,13 +11,13 @@ const App = () => {
 
   return (
     <div>
-        <NavBar />
-        <Header />
-        <SocialProof />
-        <About /> 
-        <Accordion />
-        <CTA/>
-        <Footer />
+      <NavBar />
+      <Header />
+      <SocialProof />
+      <About />
+      <Accordion />
+      <CTA />
+      <Footer />
     </div>
   )
 }
